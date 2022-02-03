@@ -1,0 +1,167 @@
+body {
+    background-color: #009789;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    border: 0px black solid;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 10vh;
+    display: flex
+}
+
+#left-section {
+    border: 0.3px rgb(219, 219, 219) solid;
+    width: 30%;
+}
+
+#profile-bar {
+    border: 0px rgb(219, 219, 219) solid;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #f0f2f5;
+}
+
+.DP {
+    border: 0px black solid;
+    border-radius: 100%;
+    width: 40px;
+    margin-left: 9px;
+}
+
+.profile-icon {
+    width: 27%;
+    border: 0px black solid;
+    text-align: center;
+    margin: 11px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.search-bar {
+    border: 0.3px rgb(219, 219, 219) solid;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+}
+
+input {
+    width: 80%;
+    border: none;
+    text-align: center;
+    background-color: #f0f2f5;
+}
+
+.section {
+    background-color: #ffffff;
+}
+
+.chat-container-section {
+    border-bottom: 0.3px rgb(219, 219, 219) solid;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.profile-image-container {
+    border: 0px black solid;
+}
+
+.pic-1 {
+    width: 50px;
+    border-radius: 100px;
+}
+
+.chat-box {
+    border: 0px black solid;
+    width: 68%;
+    padding-left: 18px;
+}
+
+.chat-box p {
+    margin: 2px;
+}
+
+.chat-heading {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.chat-subheading {
+    text-transform: lowercase;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+.timing-section {
+    border: 0px black solid;
+}
+
+.timing-section p {
+    margin: 2px;
+    text-align: right;
+    border: 0px black solid;
+}
+
+.chat-time {
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+}
+
+.right-section {
+    border: 0px yellow solid;
+    width: 70%;
+}
+
+.profile-icon-1 {
+    width: 10%;
+    border: 0px black solid;
+    margin: 11px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.chat-box-right {
+    border: 0px black solid;
+    width: 78%;
+    padding-left: 15px;
+}
+
+.chat-box-right p {
+    margin: 2px;
+}
+
+.background-pic {
+    background-image: url(images/whatsapp-background\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 83%;
+}
+
+.message-box {
+    border: 0px black solid;
+    margin: 8px;
+    padding: 9px;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    justify-content: space-between;
+    display: flex;
+}
+
+.input-one {
+    border: 0px black solid;
+    width: 80%;
+    background-color: #f0f2f5;
+}

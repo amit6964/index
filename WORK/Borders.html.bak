@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+
+ <head>
+     <style>
+	        .Dotted{border:10px dotted blue;
+			      margin-bottom:100px;
+				  width:100px;
+				  height:100px;}
+				  
+			.Dashed{border-style:dashed;
+		          border-color:red;
+				  border-width:10px;}
+                 
+	        .Solid{border-style:Solid;
+		          border-color:green;
+				  border-width:10px;}
+				  
+			.Double{border-style:Double;
+		          border-color:pink;
+				  border-width:10px;}	  
+				  
+			.Groove{border-style:Groove;
+		          border-color:brown;
+				  border-width:10px;}
+
+            .Ridge{border-style:Ridge;
+		          border-color:grey;
+				  border-width:10px;}
+			
+            .Inset{border-style:Inset;
+		          border-color:black;
+				  border-width:10px;}
+				  
+
+            .Outset{border-style:Outset;
+		          border-color:orange;
+				  border-width:10px;}
+				  
+			.None{border-style:None;
+		          border-color:blue;
+				  border-width:10px;}	  
+
+
+       </style>
+ </head>
+
+ <body>
+    <h1 class="Dotted">Hi i'm Dotted</h1></div>
+	<h1 class="Dashed">Hi i'm Dashed</h1></div>
+	<div class="Solid"><h1>Hi i'm Solid</h1></div>
+	<div class="Double"><h1>Hi i'm Double</h1></div>
+	<div class="Groove"><h1>Hi i'm Groove</h1></div>
+	<div class="Ridge"><h1>Hi i'm Ridge</h1></div>
+	<div class="Inset"><h1>Hi i'm Inset</h1></div>
+	<div class="Outset"><h1>Hi i'm Outset</h1></div>
+	<div class="None"><h1>Hi i'm None</h1></div>
+ </body>
+
+</html>
