@@ -1,0 +1,102 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+.container-one {
+    /* border: 1px black solid; */
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 13vh;
+}
+
+.pic {
+    /* border: 1px black solid; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.pic img {
+    border: 0px black solid;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.container-two {
+    /* border: 1px rgb(255, 0, 0) solid; */
+    width: 40%
+}
+
+.heading {
+    /* border: 1px black solid; */
+    margin: 10px;
+    padding: 15px;
+    font-size: 80px;
+}
+
+.subheading {
+    /* border: 1px black solid; */
+    margin-top: 20px;
+    padding-left: 80px;
+}
+
+.paragraph {
+    /* border: 1px black solid; */
+    margin-top: 5px;
+    padding-left: 80px;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+    margin: 50px;
+}
+
+.daily {
+    border: 1px black solid;
+    border-radius: 100%;
+    background-color: rgb(255, 145, 0);
+    width: 25%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.layouts {
+    border: 1px black solid;
+    border-radius: 100%;
+    background-color: rgb(238, 75, 25);
+    width: 25%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    border: 1px black solid;
+    border-radius: 100%;
+    background-color: rgb(0, 182, 214);
+    width: 25%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: white;
+}
